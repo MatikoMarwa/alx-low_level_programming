@@ -62,7 +62,8 @@ In C, a function is a block of code that performs a specific task. To define a f
 ```int add(int x, int y)
 {
     return x + y;
-}```
+}
+```
 
 ## Function Prototype
 
@@ -106,8 +107,10 @@ For example, if you have a header file called `myheader.h`, you could include it
 This would include the contents of the `myheader.h` file in your program source code. You can then use any declarations or definitions from the header file in the main body of your program.
 
 It's worth noting that the angle brackets (`<` and `>`) are used to include system header files, while quotation marks (`"` and `"`) are used to include header files that are part of your program. For example:
+
 ```
 #include <stdio.h>  // include a system header file
 #include "myheader.h"  // include a header file from your program
+
 ```
 In general, header files are a convenient way to organize declarations and definitions in your program, and to reuse code in multiple source files. They help to make your code more modular and easier to maintain.
